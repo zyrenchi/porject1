@@ -1,0 +1,252 @@
+@media (min-width : 300px) and (max-width : 600px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /*makanan*/
+    .label-menu h3 {
+        font-family: "englebert",sans-serif;
+        font-size: 25px;
+    }
+    nav {
+        width: 100%;
+    }
+    .container-btn {
+        width: 70%;
+        position: absolute;
+    }
+    .btn-home {
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa {
+        text-decoration: none;
+        color: gold;
+        font-size: 14px;
+    }
+    .container-nav {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    section h3 {
+        pointer-events: none;
+        font-size: 19px;
+    }
+    .container-makanan {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-makanan2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .con-makanan {
+        border-radius: 30px;
+        overflow: hidden;
+        transition: all 0.2s ease;
+    }
+    .con-makanan:hover {
+        transform: scale(1.1);
+    }
+    .con-makanan:hover .bg-desk {
+        height: 100%;
+        opacity: 80%;
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-makanan {
+        width: 120px !important;
+        height: 200px !important;
+    }
+    .makanan1 {
+        width: 150px;
+        height: 350px;
+        background-image: url(img/kepitingsauspadang.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan2 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/pepes\ ikan.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan3 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/rendang.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan4 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/sate.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan5 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/cumi\ bakar.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan6 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/ikan\ bakar.jpe);
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .makanan7 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/sate\ lilit.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .makanan8 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/nasi\ bakar.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .deskripsi{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        color: aliceblue;
+    }
+    .bg-desk{
+        z-index: 4;
+        height: 90px;
+        width: 100%;
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0 0 0;
+        transition: all 0.4s ease;
+        pointer-events: none;
+        text-align: center;
+    }
+    .bg-desk h4,p {
+        font-size: 16px !important;
+    }
+    /*minuman*/
+    .sec-minuman {
+        padding-top:7rem;
+    }
+    .minuman1 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/es\ teh.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: -10px;
+    }
+    .minuman2 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/milkshake.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .minuman3 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/immune\ booost.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: -3rem;
+    }
+    .minuman4 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/smoothie.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .minuman5 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/macchiato.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .minuman6 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/chocomint.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: -4rem;
+        background-size: 180px;
+    }
+    .minuman7 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/Mocha.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    .minuman8 {
+        width: 250px;
+        height: 450px;
+        background-image: url(img/white\ moccha\ .jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    /* menu*/
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 7rem;
+        padding-bottom: 40px;
+    }
+    /*footer*/
+    .footer {
+        width: 100%;
+        background-color: black;
+    }
+    .container-footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-footer h3 {
+        color: aliceblue;
+        font-size: 25px;
+        font-family: "dancing script";
+    }
+}

@@ -1,0 +1,209 @@
+@media (min-width : 601px) and (max-width : 1023px){
+    .menu,
+    .baris,
+    .btn{
+        gap: 6rem !important;
+        border: none !important;
+    }
+    .navbar {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .container-fluid {
+        background-color: #111A21 !important;
+        height: fit-content!important;
+        width: 100%;
+    }
+    .sec-slider {
+        width: 100%;
+        height: 350px;
+    }
+    .bingkai-gambar img {
+        width: 650px !important;
+    }
+    .bingkai1 img {
+        width: 870px !important;
+        margin-left: -90px;
+    }
+    .btn {
+        width: 200px !important;
+        height: 160px !important;
+    }
+    .btn1 {
+        background-image: url(img/kepiting.jpg);
+        background-position: center;
+        background-size: cover;
+        pointer-events: none;
+    }
+    .btn2 {
+        background-image: url(img/pepes\ ikan.jpg);
+        background-position: center;
+        background-size: cover;
+        pointer-events: none;
+    }
+    .btn3 {
+        background-image: url(img/cumi\ bakar.jpeg);
+        background-position: center;
+        background-size: cover;
+        pointer-events: none;
+    }
+    .btn4 {
+        background-image: url(img/rendang.jpg);
+        background-position: center;
+        background-size: cover;
+        pointer-events: none;
+    }
+    .btn5 {
+        background-image: url(img/nasi\ bakar.jpg);
+        background-position: center;
+        background-size: cover;
+        pointer-events: none;
+    }
+    .container-lengkap a {
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-style: italic;
+    }
+    .container-lengkap a:hover{
+        color: black;
+    }
+    .container-lengkap a:active{
+        color: gold
+    }
+   .navbar-brand {
+       color: #efae6a !important;
+       font-size: 35px !important;
+       font-family: "dancing script",sans-serif;
+       pointer-events: none;
+   }
+   .navbar-nav {
+        gap: 10px !important;
+        width: 100%;
+        height: 40px;
+   }
+   .collapse {
+        width: 100% !important;
+        padding-right: 25px !important;
+   }
+   .pembatas-warna{
+       height: 20px;
+       background-color:#ffffff !important;
+       position: relative;
+       z-index: 4;
+   }
+   .bingkai-gambar {
+    height: 600px;
+    width: 1520px;
+   }
+   .menu {
+       align-items: center;
+       padding-bottom: 50px !important;
+       max-height: fit-content;
+       background-color: #420606;
+   }
+   .container-5 {
+    width: 100%;
+    height: fit-content;
+    z-index: 4;
+    gap: 2rem;
+   }
+    .baris1{
+        width: 100%;
+        padding: 10px;
+        padding-left: 50px;
+        z-index: 2;
+    } 
+    .btn-sm{
+        height: 155px;
+        width:155px;
+        background-color: transparent !important;
+    } 
+    .judul-menu {
+        font-size: 25px;
+        font-style: italic;
+    }
+    .container-desk  {
+        padding-left: 15px;
+        align-items: center;
+        color: #f0efea;
+    }
+    .container-desk p {
+        pointer-events: none !important;
+    }
+    .container-desk2 p {
+        pointer-events: none !important;
+        padding-right: 15px !important;
+    }
+    .baris2{
+        width: 100%;
+        padding: 10px;
+        padding-right: 50px;
+        z-index: 2;
+    } 
+    .container-desk2  {
+        padding-left: 15px;
+        display: grid;
+        align-items: center;
+        color: #f0efea;
+        text-align: right;
+    }
+    .img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        border-radius: 25px !important;
+    }
+    .container-menubesar{
+        width: 100%;
+        height: 100%;
+        background-color: #111A21;
+    }
+    .nav {
+        padding: 20px;
+    }
+    .nav , a {
+        font-size: 20px !important;
+    }
+    .nav-link {
+        color:  #efae6a !important;
+        font-size: 10px !important;
+    }
+    .judul {
+        padding: 60px 0 0 0;
+        color: #efae6a !important;
+        position: relative;
+        z-index: 2;
+        font-size: 50px;
+        font-family: "englebert",sans-serif;
+        pointer-events: none;
+    }
+    .btn-menu {
+        width: 100%;
+    }
+    .sec-menu {
+        z-index: 3;
+        height: 100%;
+    }
+    .brand-f {
+        width: 100%;
+        height: fit-content;
+    }
+    .brand-footer {
+        text-decoration: none;
+        color:#efae6a ;
+        font-size: 50px !important;
+        font-family: "dancing script",sans-serif;
+    }
+    .btn-best {
+        position: relative;
+        z-index: 5;
+    }
+    .btn-best a {
+        color: white;
+        text-decoration: none;
+    }
+    .footer {
+        background-color: #770C0C !important;
+        height: fit-content;
+    }
+}

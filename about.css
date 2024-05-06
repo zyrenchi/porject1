@@ -1,0 +1,160 @@
+@media (min-width : 1024px){
+    *{
+    margin: 0;
+    padding: 0;
+}
+.btn-left {
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    text-decoration: none;
+    font-size: 30px;
+}
+.judul {
+    font-family: "dancing script", sans-serif;
+    font-size: 50px;
+}
+.j-shinka {
+    font-size: 40px;
+    font-family: "englebert",sans-serif;
+}
+.d-shinka {
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.container2 {
+    gap: 3rem;   
+    background-color: rgb(226, 223, 223);
+}
+.container2 a{
+    text-decoration: none;
+    color: black;
+}
+.f-top {
+    gap: 1rem;
+}
+.f-top img {
+    width: 500px;
+    
+}
+.f-bot img {
+    width: 600px;
+    border-radius:20px ;
+}
+.nav-fot {
+    background-color: black;
+}
+.nav-fot h3{
+    color: white;
+    font-family: "dancing script",sans-serif;
+    font-size: 40px;
+}
+}
+
+@media (min-width : 300px) and (max-width : 600px) {
+    *{
+    margin: 0;
+    padding: 0;
+}
+.btn-left {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+.judul {
+    font-family: "dancing script", sans-serif;
+    font-size: 35px;
+}
+.j-shinka {
+    font-size: 30px;
+    font-family: "englebert",sans-serif;
+}
+.d-shinka {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container2 {
+    gap: 3rem;   
+    background-color: rgb(226, 223, 223);
+}
+.container2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.f-top {
+    gap: 1rem;
+}
+.f-top img {
+    width: 140px;
+    border-radius: 20px;
+}
+.f-bot img {
+    width: 230px;
+    border-radius:20px ;
+}
+.nav-fot {
+    background-color: black;
+}
+.nav-fot h3{
+    color: white;
+    font-family: "dancing script",sans-serif;
+    font-size: 30px;
+}
+}
+@media (min-width : 601px) and (max-width : 1023px) {
+    *{
+    margin: 0;
+    padding: 0;
+}
+.btn-left {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+.judul {
+    font-family: "dancing script", sans-serif;
+    font-size: 35px;
+}
+.j-shinka {
+    font-size: 30px;
+    font-family: "englebert",sans-serif;
+}
+.d-shinka {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container2 {
+    gap: 3rem;   
+    background-color: rgb(226, 223, 223);
+}
+.container2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.f-top {
+    gap: 1rem;
+}
+.f-top img {
+    width: 240px;
+    border-radius: 20px;
+}
+.f-bot img {
+    width: 330px;
+    border-radius:20px ;
+}
+.nav-fot {
+    background-color: black;
+}
+.nav-fot h3{
+    color: white;
+    font-family: "dancing script",sans-serif;
+    font-size: 30px;
+}
+}
+

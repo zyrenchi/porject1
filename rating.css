@@ -1,0 +1,149 @@
+.pembatas-rating {
+    height: 75px;
+    width: 10;
+    background-color:rgb(236, 84, 29);
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    pointer-events: none;
+}
+.container-rating2 {
+    background-color: beige;
+    width: 70vh;
+    display: flex;
+    padding: 12px 0 0 60px;
+    border-radius: 25px;
+    margin-left: -30px;
+}
+.con-rate {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 84, 29);
+    padding: 10px 30px;
+}
+.container-rating {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bungkus-rate {
+    display: flex;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bungkus-rate  input{
+    display: none;
+} 
+#con-komentar {
+    display: none;
+}
+.bungkus-rate label{
+    font-size: 30px;
+    transition: all 0.2s ease;
+    float: right;
+    padding: 5px;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: gold;
+}
+input:checked ~ label {
+    color: gold;
+}
+input:checked ~ #con-komentar {
+    display: block;
+}
+input#rate5:checked ~ label {
+    color: gold;
+    text-shadow: 0 0 20px rgb(154, 245, 9);
+} 
+#rate1:checked ~ #con-komentar .false:before {
+    content: "Saya Tidak Suka";
+    color: aliceblue;
+    font-size: 25px;
+}
+#rate2:checked ~ #con-komentar .false:before {
+    content: "Lumayan suka";
+    color: aliceblue;
+    font-size: 25px;
+}
+#rate3:checked ~ #con-komentar .false:before {
+    content: "Saya Suka";
+    color: aliceblue;
+    font-size: 25px;
+}
+#rate4:checked ~ #con-komentar .false:before {
+    content: "Rekomen";
+    color: aliceblue;
+    font-size: 25px;
+}
+#rate5:checked ~ #con-komentar .false:before {
+    content: "Sempurna";
+    color: aliceblue;
+    font-size: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    display: none;
+    justify-content: center;
+}
+form header {
+    padding-top:15px;
+    padding-bottom: 10px;
+}
+header {
+    font-size: 18px;
+    font-weight: 600;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+form .textarea {
+    height: 90px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+}
+form .textarea::placeholder {
+    color:white;
+    font-style: italic;
+    opacity: 50%;
+}
+.con-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn-submit {
+    width: 15.5rem;
+    padding:4px 8px;
+    background-color: #6d6d6d;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}.btn {
+    width: 100%;
+    justify-content: center;
+}

@@ -1,0 +1,109 @@
+@media (min-width : 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 300px !important;
+    }
+    .c-f {
+        background-color: cadetblue !important
+    }
+    form{
+        border-radius: 30px !important;
+    }
+    .form-group {
+        padding: 5px 20px !important;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    .notif{
+        font-size: 18px !important;
+        display: none;
+    }
+    .back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        font-size: 19px;
+    }
+}
+
+@media (min-width : 300px) and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 300px !important;
+    }
+    form{
+        border-radius: 30px !important;
+        margin-bottom: 2rem;
+    }
+    .form-group {
+        padding: 5px 20px !important;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    .notif{
+        font-size: 18px !important;
+        display: none;
+    }
+    .container {
+        margin-top: 0 !important;
+    }
+    .back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        font-size: 19px;
+    }
+}
+@media (min-width : 601px) and (max-width: 1023px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 300px !important;
+    }
+    form{
+        border-radius: 30px !important;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+    .form-group {
+        padding: 5px 20px !important;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    .notif{
+        font-size: 18px !important;
+        display: none;
+    }
+    .container {
+        margin-top: 0 !important;
+    }
+    .back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        font-size: 19px;
+    }
+}

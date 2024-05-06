@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Online</title>
+    <link rel="stylesheet" href="po.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="jquerry.js"></script>
+</head>
+<body>
+    <!--navbar-->
+    <section class="sec-nav"> 
+    <a class="back fa fa-arrow-left" href="menu.html"></a>
+     <h4 class="alert text-center bg-light">ShinKa Resto</h4>
+    </section>
+    <!--form-->
+    <di class="c-f">
+    <div class="container mt-2">
+    <form id="form" class="bg-dark justify-content-xl-center">
+    <div class="form-group">
+        <h2 class="notif alert alert-success text-center m-3">Terimakasih Telah Booking</h2>
+        <h3 class="text-light text-center m-3">Booking Online</h3>
+        <label class="text-light">Nama Anda</label> 
+        <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Lengkap Anda">
+    </div>
+    <div class="form-group">
+        <label class="text-light">Nomer Anda</label> 
+        <input type="tel" name="nomer" class="form-control" placeholder="Masukan Nomer Anda">
+    </div>
+    <div class="form-group">
+        <label class="text-light">Email Anda</label> 
+        <input type="email" name="email" class="form-control" placeholder="Masukan Email Anda" >
+    </div>
+    <div class="form-group">
+        <label class="text-light">Pilih Tanggal Booking</label> 
+        <input type="date" name="tanggal" class="form-control" placeholder="Masukan Email Anda" >
+    </div>
+    <div class="form-group">
+        <label class="text-light">Pilih Paket</label> 
+        <select class="form-select" name="paket" >
+            <option>Paket Keluarga</option>
+            <option>Paket Date</option>
+            <option>Paket Sendiri</option>
+        </select>
+
+        <button type="submit" class="btn btn-primary mt-4 mb-3">Kirim</button>
+        <button class="btn2 btn-primary d-none" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+    </div>
+    </form>
+    </div>
+    </div>
+    <script src="po.js"></script>
+</body>
+</html>
